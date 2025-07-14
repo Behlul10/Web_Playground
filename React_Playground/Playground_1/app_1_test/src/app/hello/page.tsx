@@ -1,5 +1,11 @@
-export default function Home(){
-    return <h1 className="grid grid-rows-[50px_1fr_50px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"> 
-    hi hi from the hello page :D 
-    </h1>
+export default function Home() {
+    return(
+        <div className="min-h-screen px-8 py-12">
+
+        <h1 className="text-3xl font-bold underline button"  > hi hi from the hello page :D </h1>
+        <p >another one</p>
+
+        <button className="bg-sky-500 hover:bg-sky-700 button">Save changes</button>
+        </div>
+    );
 }
